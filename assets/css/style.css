@@ -215,8 +215,8 @@ input {
 }
 
 .navbar-default .navbar-toggle{
-    background-color:#fed136;
-    border-color:#fed136;
+    background-color:#B0B0AF;
+    border-color:#B0B0AF;
 }
 
 .navbar-default .navbar-toggle .icon-bar{
@@ -421,6 +421,10 @@ input {
 
 #f a {
 	color: white;
+}
+
+#f a:hover{
+	color: #373737;
 }
 
 .btn-outline {

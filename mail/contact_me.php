@@ -19,7 +19,7 @@ $message = $_POST['message'];
 $to = 'yamileliassoto@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "Mensaje enviado de tu portafolio";
 $email_body = "¡Haz recibido un nuevo correo electrónico de tu portafolio!.\n\n"."Aquí están los detalles del interesado:\n\nNombre: $name\n\nCorreo: $email_address\n\nTeléfono: $phone\n\nMensaje:\n$message\n\n ¡Contáctalo!\n";
-$headers = "From: noreply@videoinabox.net\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+$headers = "From: noreply@yamilelias.github.io\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
 return true;			
