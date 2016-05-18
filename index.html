@@ -20,6 +20,13 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
 
+    <!-- Parallax Effect -->
+    <script>
+        $(document).ready(function () {
+            $('.parallax').parallax();
+        });
+    </script>
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -46,7 +53,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
-                        <a href="#page-top"></a>
+                        <a href="#header"></a>
                     </li>
                     <li class="page-scroll">
                         <a href="#about">Acerca de mi</a>
@@ -70,8 +77,8 @@
             <div class="logo">
             </div><!--/logo-->
             <div class="logo"></div>
-            <div class="container centered">
-                <div class="row">
+            <div class="container centered parallax-container">
+                <div class="row parallax">
                     <div class="col-md-8 col-md-offset-2">
                         <h1>¡Hola! Mi nombre es <b>Yamil Elías</b>.<br />Soy desarrollador web.</h1>
                     </div>
@@ -85,12 +92,12 @@
 
                     <div class="col-sm-4">
                         <i class="ion-ios7-browsers-outline"></i>
-                        <h3>Interfaz de Usuario</h3>
+                        <h3>Desarrollo UI</h3>
                     </div><!--/col-md-4-->
 
                     <div class="col-sm-4">
                         <i class="ion-code"></i>
-                        <h3>Aplicaciones Web</h3>
+                        <h3>Manejo de CMS</h3>
                     </div><!--/col-md-4-->
 
                 </div><!--/row-->
@@ -113,10 +120,10 @@
             <div class="row">
                 <h2 class="centered mb">Realizo sitios web<br />que pueden desarrollar a tu empresa.</h2>
                 <div class="col-md-6">
-                    <p>Estudiante del Tecnológico de Monterrey Campus Chihuahua de la carrera de Ingenieria en Tecnologías de la Información, estoy interesado en explayar mis habilidades principalmente en el área de seguridad informática, diseño y desarrollo web.</p>
+                    <p>Estudiante del Tecnológico de Monterrey Campus Chihuahua de la carrera de Ingenieria en Tecnologías de la Información, estoy interesado en explayar mis habilidades principalmente en el área de seguridad informática, diseño de videojuegos y desarrollo web.</p>
                 </div><!--/col-md-6-->
                 <div class="col-md-6">
-                    <p>Tengo más de dos años de experiencia en el área de ventas en diferentes organizaciones, como lo son empresas y asociaciones internacionales. Dentro de la escuela he desarrollado diversos proyectos, como lo son aplicaciones web, sitios web, entre otros para clientes por motivo de la clase. Además he realizado diferentes proyectos de manera independiente y con compañías de desarrollo de Software.</p>
+                    <p>Tengo más de dos años de experiencia en el área de ventas en diferentes organizaciones, como lo son empresas y asociaciones internacionales. Dentro de la escuela he desarrollado diversos proyectos, como lo son aplicaciones web, sitios web, entre otros para clientes por motivo de la clase. Además he realizado diferentes proyectos como freelancer.</p>
                 </div><!--/col-md-6-->
             </div><!--/row-->
             <div class="row centered"><form method="get" action="../cv/CV_Yamil.pdf" target="_blank"><button type="submit" class="btn btn-download btn-conf">Curriculum Vitae</button></form></div>
@@ -178,8 +185,8 @@
                         <div class="he-view">
                             <div class="bg a0" data-animate="fadeIn">
                                 <h3 class="a1" data-animate="fadeInDown">HTML WEB SITE</h3>
-                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_03.png" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
-                                <a href="http://videoinabox.net/" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
+                                <a data-rel="prettyPhoto" href="assets/img/portfolio/portfolio_04.png" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
+                                <a href="http://campuscity.com.mx/" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
                             </div><!-- he bg -->
                         </div><!-- he view -->
                     </div><!-- he wrap -->
@@ -224,10 +231,8 @@
         </div>
     </section>-->
 
-    <!--Contact & Footer Section-->
+    <!--Contact Section-->
     <section id="contact" class="contact-pa">
-
-        <!-- Contact Section -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -287,6 +292,7 @@
                 <div class="row centered">
                     <div class="col-md-8 col-md-offset-2">
                         <a href="https://github.com/Manaric"><i class="ion-social-github"></i></a>
+                        <a href="https://www.facebook.com/yamil.elias2"><i class="ion-social-facebook"></i></a>
                         <a href="https://mx.linkedin.com/in/yamilelias"><i class="ion-social-linkedin"></i></a>
                     </div><!--/col-md-8-->
                 </div>
