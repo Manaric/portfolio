@@ -153,6 +153,7 @@ input {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	padding: 14px 28px 13px 28px;
+	transition: background-color 0.4s;
 	}
 
 .btn-clear {
