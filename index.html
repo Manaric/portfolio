@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
     <link href="assets/css/ionicons.min.css" rel="stylesheet">
@@ -140,12 +141,9 @@
             <br />
             <div class="row centered">
                 <h2>Algunos de mis Trabajos.</h2>
+                <div id="portfolio-items"></div>
             </div><!--/row-->
         </div><!--/.container-->
-        <div class="portfolio-centered mt container centered">
-            <div class="recentitems portfolio" id="portfolio-content">
-            </div>
-        </div><!-- portfolio container -->
     </section> 
 
     <!--Clients Section-->
@@ -236,6 +234,8 @@
         </div><!--/.F-->
     </section> 
 
+    <div id="modal"></div>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -247,6 +247,7 @@
     <script src="assets/js/jquery.prettyPhoto.js"></script>
     <script src="assets/js/jquery.isotope.min.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/jquery.quicksand.js"></script>
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
@@ -255,15 +256,81 @@
     <!-- HandlebarsJS Scripts-->
     <script src="js/handlebars-v4.0.5.js"></script>
     <script src="js/handlebars/data.js"></script>
-    <script src="js/handlebars/portfolio.js"></script>
+    <script src="js/handlebars/functions.js"></script>
+
+    <!-- Portfolio Template for HandlebarsJS-->
+    <script id="portfolio-template" type="text/x-handlebars-template">
+        {{#each item}}
+            <div class="col-sm-4 portfolio-item graphic-design">
+                    <a href="#portfolioModal{{id}}" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="{{img}}" class="img-responsive" alt="">
+                    </a>
+                </div>
+        {{/each}}
+    </script>
+
+    <script id="modal-template" type="text/x-handlebars-template">
+        {{#each item}}
+            <div class="portfolio-modal modal fade" id="portfolioModal{{id}}" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h2>{{title}}</h2>
+                                    <hr>
+                                    <img src="{{img}}" class="img-responsive img-centered" alt="">
+                                    <p>{{description}}</p>
+                                    <ul class="list-inline item-details">
+                                        <li>Client:
+                                            <strong><a href="{{href}}">{{client}}</a>
+                                            </strong>
+                                        </li>
+                                        <li>Date:
+                                            <strong>{{date}}
+                                            </strong>
+                                        </li>
+                                        <li>Service:
+                                            <strong>{{tag}}
+                                            </strong>
+                                        </li>
+                                    </ul>
+                                    <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </script>
+
+    <!-- Portfolio Template for HandlebarsJS -->
+    <script id="portfolio-template-2" type="text/x-handlebars-template">
+        {{#each rpojects}}
+            <li data-tags="{{tag}}"><img src="{{img}}" alt="{{type}}" class="portfolio-item graphic-design"></li>
+        {{/each}}
+    </script>
 
     <!-- Header JavaScript-->
     <script src="js/cbpAnimatedHeader.js"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
 
-    <!--Script to deploy the portfolio items-->
-    <script src="js/portfolio.js"></script>
+    <!-- Portfolio Menu -->
+    <!--<script src="assets/js/jquery.quicksand.js"></script>-->
+    <!--<script src="assets/js/script.js"></script>-->
 
     <!-- Parallax Effect -->
     <script>
@@ -282,24 +349,6 @@
       ga('create', 'UA-80289636-1', 'auto');
       ga('send', 'pageview');
 
-    </script>
-
-    <!-- Portfolio Template for HandlebarsJS-->
-    <script id="portfolio-template" type="text/x-handlebars-template">
-        {{#each item}}
-            <div class="portfolio-item graphic-design">
-                <div class="he-wrap tpl6">
-                    <img src="{{img}}" class="img-responsive" alt="">
-                    <div class="he-view">
-                        <div class="bg a0" data-animate="fadeIn">
-                            <h3 class="a1" data-animate="fadeInDown">{{type}}</h3>
-                            <a data-rel="prettyPhoto" href="{{zoom}}" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-search"></i></a>
-                            <a href="{{href}}" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
-                        </div><!-- he bg -->
-                    </div><!-- he view -->
-                </div><!-- he wrap -->
-            </div>
-        {{/each}}
     </script>
   </body>
 </html>
