@@ -325,11 +325,11 @@ form .row:first-child .floating-label-form-group {
   .navbar-default .navbar-nav > .active > a {
     border-radius: 3px;
   }
-  .navbar-default .navbar-shrink {
+  .navbar-default.navbar-shrink {
     background-color: #B8B8B8;
     padding: 10px 0;
   }
-  .navbar-default .navbar-shrink .navbar-brand {
+  .navbar-default.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
 }
