@@ -1,0 +1,27 @@
+{
+  "name": "yamilelias.github.io",
+  "version": "0.6.0",
+  "description": "This is my personal portfolio for online presentation.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "default"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamilelias/yamilelias.github.io.git"
+  },
+  "keywords": [
+    "Portfolio",
+    "Yamil",
+    "Elias",
+    "Chihuahua",
+    "Developer",
+    "Web"
+  ],
+  "author": "yamileliassoto@gmail.com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/yamilelias/yamilelias.github.io/issues"
+  },
+  "homepage": "https://github.com/yamilelias/yamilelias.github.io#readme"
+}
