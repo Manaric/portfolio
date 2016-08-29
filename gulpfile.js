@@ -26,7 +26,7 @@ gulp.task('less', function() {
     return gulp.src('assets/less/freelancer.less')
         .pipe(less())
         .pipe(header(banner, { pkg: pkg }))
-        .pipe(gulp.dest('css'))
+        .pipe(gulp.dest('assets/css'))
         .pipe(browserSync.reload({
             stream: true
         }))
@@ -37,7 +37,7 @@ gulp.task('minify-css', ['less'], function() {
     return gulp.src('assets/css/style.css')
         .pipe(cleanCSS({ compatibility: 'ie8' }))
         .pipe(rename({ suffix: '.min' }))
-        .pipe(gulp.dest('css'))
+        .pipe(gulp.dest('assets/css'))
         .pipe(browserSync.reload({
             stream: true
         }))
