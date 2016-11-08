@@ -88,6 +88,18 @@ var portfolio = {
 			description : "This is a site that I was asked to develop in a weekend (literally). This was a freelancer job I did and the client only needed a site that could show some information about them. For this I didn't code anything, only using WordPress plugins and themes to do it (it was also because of the time they gave me).",
 			client : "Klean Depot",
 			date : "June 2016"
+		},
+		{
+			id : 7,
+			tag : "Wordpress Projects",
+			img : "assets/img/portfolio/thumbnails/portfolio_07.png", 
+			type : "Wordpress Website",
+			zoom : "assets/img/portfolio/data/portfolio_07.PNG",
+			href : "https://m-shirt.club/",
+			title : "M-Shirt",
+			description : "This is the first crowdfunding site that we developed in the company I work for (X-Shirt). The goal for this site is to find people interested in the new product that the company is going to launch and invite them to show their support by crowdfuning the project and, by that, receiving a new product. In this project I was in charge of the development team to get this site done, I was involved both in planning and development.",
+			client : "X-Shirt",
+			date : "September 2016"
 		}
 	]
 };
