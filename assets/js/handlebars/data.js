@@ -100,6 +100,18 @@ var portfolio = {
 			description : "This is the first crowdfunding site that we developed in the company I work for (X-Shirt). The goal for this site is to find people interested in the new product that the company is going to launch and invite them to show their support by crowdfuning the project and, by that, receiving a new product. In this project I was in charge of the development team to get this site done, I was involved both in planning and development.",
 			client : "X-Shirt",
 			date : "September 2016"
+		},
+		{
+			id : 8,
+			tag : "Wordpress Projects",
+			img : "assets/img/portfolio/thumbnails/portfolio_08.png", 
+			type : "Wordpress Website",
+			zoom : "assets/img/portfolio/data/portfolio_08.jpg",
+			href : "http://http://asturiasresidencial.com.mx/",
+			title : "Residencial Asturias",
+			description : "Residencial Asturias is a residential area in Chihuahua City. Is distributed in three stages with a total of 200 residential lots, surrounded by natural parks in the area and privileged visits to the city, which seek to integrate into a single concept of security, armony and exclusivity.",
+			client : "GAMMA Inmobiliaria",
+			date : "December 2016"
 		}
 	]
 };
