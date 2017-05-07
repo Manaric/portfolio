@@ -381,8 +381,20 @@ form .row:first-child .floating-label-form-group {
   padding-bottom: 50px;
   background: #f5f5f5;
 }
+
+/*  ################################################################
+  5. ABOUT SECTION
+################################################################# */
+
+@media (min-width: 1280px) {
+  #about {
+    background: url('../img/other/banner.png') no-repeat center top;
+    padding-bottom: 400px;
+  }
+}
+
 /*	################################################################
-	5. PORTFOLIO
+	6. PORTFOLIO
 ################################################################# */
 #portfolio .portfolio-item {
   margin: 0 0 15px;
@@ -527,7 +539,7 @@ form .row:first-child .floating-label-form-group {
   text-align: center;
 }
 /*	################################################################
-	6. CLIENTS BANNER
+	7. CLIENTS BANNER
 ################################################################# */
 #clients {
   padding-bottom: 3%;
@@ -542,20 +554,24 @@ form .row:first-child .floating-label-form-group {
   line-height: 80px;
 }
 /*	################################################################
-	7. CONTACT FORM
+	8. CONTACT FORM
 ################################################################# */
 #contact {
   background-color: #666;
 }
 .contact-pa {
   background-color: black;
-  background: url(../img//other/map-image.png) fixed no-repeat center;
 }
+@media (min-width: 1280px) {
+    .contact-pa {
+      background: url(../img/other/header-2.jpg) fixed no-repeat center;
+    }
+  }
 #contactForm {
   color: #fff;
 }
 /*	################################################################
-	8. FOOTER
+	9. FOOTER
 ################################################################# */
 #footer {
   background-color: #666;
@@ -589,10 +605,9 @@ form .row:first-child .floating-label-form-group {
   outline-color: none;
 }
 /*	################################################################
-	9. HEADER 2 - PORTFOLIO SECTION
+	10. HEADER 2 - PORTFOLIO SECTION
 ################################################################# */
 #h2 {
-  background: url(../img/other/header-2.jpg) no-repeat center top;
   padding-top: 5px;
   background-attachment: relative;
   background-position: center center;
@@ -608,6 +623,13 @@ form .row:first-child .floating-label-form-group {
   background-size: cover;
   color: white;
 }
+
+@media (min-width: 1280px) {
+  #h2 {
+    background: url(../img/other/header-2.jpg) no-repeat center top;
+  }
+}
+
 #h2 .logo {
   margin-top: 30px;
   margin-left: 40px;
