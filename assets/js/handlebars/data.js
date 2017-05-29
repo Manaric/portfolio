@@ -107,11 +107,47 @@ var portfolio = {
 			img : "assets/img/portfolio/thumbnails/portfolio_08.png", 
 			type : "Wordpress Website",
 			zoom : "assets/img/portfolio/data/portfolio_08.jpg",
-			href : "http://http://asturiasresidencial.com.mx/",
+			href : "http://asturiasresidencial.com.mx/",
 			title : "Residencial Asturias",
 			description : "Residencial Asturias is a residential area in Chihuahua City. Is distributed in three stages with a total of 200 residential lots, surrounded by natural parks in the area and privileged visits to the city, which seek to integrate into a single concept of security, armony and exclusivity.",
 			client : "GAMMA Inmobiliaria",
 			date : "December 2016"
+		},
+		{
+			id : 9,
+			tag : "Magento Projects",
+			img : "assets/img/portfolio/thumbnails/portfolio_09.png", 
+			type : "Magento Website",
+			zoom : "assets/img/portfolio/data/portfolio_09.jpg",
+			href : "http://detalhe.com.mx/",
+			title : "Detalhe Accessories E-Commerce",
+			description : "Detalhe is a customized gift company from Chihuahua City. Also, they sell mexican artisan jewelry though all the country. This is a Magento E-Commerce built for the company, in order to increase their online sales so they can reach more places, even other countries. This platform have an integration with social media (Facebook) so it is possible to sell through it.",
+			client : "Detalhe",
+			date : "February - May 2017"
+		},
+		{
+			id : 10,
+			tag : "ASP.NET Projects",
+			img : "assets/img/portfolio/thumbnails/portfolio_10.png", 
+			type : "Web Application",
+			zoom : "assets/img/portfolio/data/portfolio_10.jpg",
+			href : "http://tygmedical.com.mx/",
+			title : "TyG Medical Web Application",
+			description : "TyG Medical is a medical services company that provides support to the industry and is located in Chihuahua City. In order to have a better communication with their collaborators that are in their clients facilities, we (a team of developers and I, as the leader of that team) developed a web application that could help the HR department to have a fluent communication. Also, it implements an inventory management section, where medics can request more medicament and the company administration can manage those request and the medicament.",
+			client : "TyG Medical",
+			date : "February - May 2017"
+		},
+		{
+			id : 11,
+			tag : "Wordpress Projects",
+			img : "assets/img/portfolio/thumbnails/portfolio_11.png", 
+			type : "Wordpress Website",
+			zoom : "assets/img/portfolio/data/portfolio_11.jpg",
+			href : "http://www.wtf.style/",
+			title : "WTF Style Online Store",
+			description : "WTF is the new image of what it was X-Shirt. Now, with a whole new organization we have created a new sales platform project, where each brand can be managed separately but can interact between them too! It's also able to show the customers where their products where made (with exact locations!). All this is created using WordPress CMS structure.",
+			client : "WTF Style",
+			date : "May 2017"
 		}
 	]
 };
