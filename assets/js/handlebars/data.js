@@ -131,7 +131,7 @@ var portfolio = {
 			img : "assets/img/portfolio/thumbnails/portfolio_10.png", 
 			type : "Web Application",
 			zoom : "assets/img/portfolio/data/portfolio_10.jpg",
-			href : "http://tygmedical.com.mx/",
+			href : "http://tygmedical.azurewebsites.net",
 			title : "TyG Medical Web Application",
 			description : "TyG Medical is a medical services company that provides support to the industry and is located in Chihuahua City. In order to have a better communication with their collaborators that are in their clients facilities, we (a team of developers and I, as the leader of that team) developed a web application that could help the HR department to have a fluent communication. Also, it implements an inventory management section, where medics can request more medicament and the company administration can manage those request and the medicament.",
 			client : "TyG Medical",
@@ -147,7 +147,7 @@ var portfolio = {
 			title : "WTF Style Online Store",
 			description : "WTF is the new image of what it was X-Shirt. Now, with a whole new organization we have created a new sales platform project, where each brand can be managed separately but can interact between them too! It's also able to show the customers where their products where made (with exact locations!). All this is created using WordPress CMS structure.",
 			client : "WTF Style",
-			date : "May 2017"
+			date : "Coming soon"
 		}
 	]
 };
