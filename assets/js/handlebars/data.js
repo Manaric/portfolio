@@ -73,7 +73,7 @@ var portfolio = {
 			client : "World Trade Fibers",
 			date : "June - August 2016",
 			employer : "World Trade Fibers",
-			employer_url : "https://wtf.style/about-us/"
+			employer_url : "https://wtf.style"
 		},
 		{
 			id : 5,
@@ -115,7 +115,7 @@ var portfolio = {
 			client : "World Trade Fibers",
 			date : "September 2016",
 			employer : "World Trade Fibers",
-			employer_url : "https://wtf.style/about-us/"
+			employer_url : "https://wtf.style"
 		},
 		{
 			id : 8,
@@ -171,7 +171,7 @@ var portfolio = {
 			client : "World Trade Fibers",
 			date : "August 2017 - Now",
 			employer : "World Trade Fibers",
-			employer_url : "https://wtf.style/about-us/"
+			employer_url : "https://wtf.style"
 		}
 	]
 };
