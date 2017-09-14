@@ -1,4 +1,4 @@
-/* 
+/*
  * This file contains the data for the portfolio.
  * The main object, "portfolio" contains an array of projects
  */
@@ -8,146 +8,170 @@ var portfolio = {
 		{
 			id : 0,
 			tag : "Wix Projects",
-			img : "assets/img/portfolio/thumbnails/portfolio_00.png", 
+			img : "assets/img/portfolio/thumbnails/portfolio_00.png",
 			type : "Wix Website",
 			zoom : "assets/img/portfolio/data/portfolio_00.PNG",
 			href : "http://igipmexico.wix.com/resourcecenter",
 			title : "Wolf Resource Center",
-			description : "This was an already done project, that wasn't updated and wasn't user friendly. My role in this project was to redesign the platform to do it more user friendly and also to mantain it updated with all the information needed to develop the process from the organization.",
+			description : "My first project for an organization. There was an already built resource center that wasn't user friendly at all and no one wanted to use it (me neither...). My goal? That anyone in need of help could go to this site and find what they needed or the way to get it. I redesign the whole platform (it was known as Wolf Resource Center 2.0... oh yeah!) and also keep updating it with relevant new information and features the users asked for.",
 			client : "AIESEC",
-			date : "January - February 2015"
+			date : "January - February 2015",
+			employer : "AIESEC",
+			employer_url : "https://aiesec.org"
 		},
 		{
 			id : 1,
 			tag : "Wix Projects",
-			img : "assets/img/portfolio/thumbnails/portfolio_01.png", 
+			img : "assets/img/portfolio/thumbnails/portfolio_01.png",
 			type : "Wix Website",
 			zoom : "assets/img/portfolio/data/portfolio_01.PNG",
 			href : "http://igipmexico.wix.com/wolfacademy",
 			title : "Wolf Academy",
-			description: "This was a project to have all the information to train new members, presentations that are done in national conferences (avoiding data loss) and all training courses that the association offers in this area. I developed it from scratch and mantain it updated.",
+			description : "My team recognized that the other project I did (please see my other project: Wolf Resource Center) was having success and the program directors where using it. So we faced another issue: the members of the committes weren't able to access training material or resources for basic processes, so with the national team we came to the idea of making this platform: Wolf Academy. Here was all the information, videos, trainings, memes (and more!) needed so the members in charge of developing the Global Internship Program could develop their work. The platform was such a hit that the National Board started implementing it in the other areas of the orgranization too!",
 			client : "AIESEC",
-			date : "August 2015"
+			date : "August 2015",
+			employer : "AIESEC",
+			employer_url : "https://aiesec.org"
 		},
 		{
 			id : 2,
 			tag : "HTML Projects",
-			img : "assets/img/portfolio/thumbnails/portfolio_02.png", 
+			img : "assets/img/portfolio/thumbnails/portfolio_02.png",
 			type : "HTML Website",
 			zoom : "assets/img/portfolio/data/portfolio_02.png",
 			href : "http://campuscity.com.mx/",
 			title : "Campus City",
-			description : "This is a site for a new project in Chihuahua City. This web page is intended to show information for a non-yet realized project, so most of the information and pictures are from renders and ideas. I was encomended to develop the site from scratch, because the owners had it but they lost it because they stopped paying for hosting so they needed it again.",
+			description : "Is not easy to develop a project from scratch from just images that the client needed in a short period of time. The reason? They lost their past platform due to a lack of backup and losting their host providers. I was encomended to develop the site that looked completely the same as the original one. In my way developing it, I asked the client if they wanted some changes or improvements on it that I added, like a fixed menu bar and a parallax effect on the background image, but everything else should stay the same.",
 			client : "GAMMA Inmobiliaria",
-			date : "July - August 2016"
+			date : "July - August 2016",
+			employer : "SOSTECH",
+			employer_url : "http://sostech.com.mx"
 		},
 		{
 			id : 3,
 			tag : "Wordpress Projects",
-			img : "assets/img/portfolio/thumbnails/portfolio_03.png", 
+			img : "assets/img/portfolio/thumbnails/portfolio_03.png",
 			type : "Wordpress Website",
 			zoom : "assets/img/portfolio/data/portfolio_03.PNG",
 			href : "http://inmobigamma.com/",
 			title : "Inmobigamma",
-			description : "Inmobigamma is a platform designed to start developing sales for the next year in a newly created section in Chihuahua city. This platform have been developed to be a showcase of a real state company (GAMMA Inmobiliaria) to sell properties, it doesn't include any kind of payment method, but it have useful plugins to deploy properties and other handy stuff for the customer.",
+			description : "The client from Campus City (see my other project) was satisfied with my work developing this site so they encomended another one, this time it was a real state site. This one was of my first projects developing on the WordPress platform, but that didn't mean I wouldn't do my best. It was a lot of research and learning (sorry, newbie...) but at the end I delivered this site, it integrates a first page that welcomes any visitor and explains the company and it have a subdomain that manages all the real state functionality.",
 			client : "GAMMA Inmobiliaria",
-			date : "August 2016"
+			date : "August 2016",
+			employer : "SOSTECH",
+			employer_url : "http://sostech.com.mx"
 		},
 		{
 			id : 4,
 			tag : "Wordpress Projects",
-			img : "assets/img/portfolio/thumbnails/portfolio_04.png", 
+			img : "assets/img/portfolio/thumbnails/portfolio_04.png",
 			type : "Wordpress Website",
 			zoom : "assets/img/portfolio/data/portfolio_04.png",
-			href : "http://www.a-shirt.club/",
+			href : "https://www.a-shirt.club/",
 			title : "A-Shirt",
-			description : "X-Shirt is a peruvian startup that have a great environmental objective by supplying a really good product to the market. I was in charge of helping them to develop a mockup design for their platform with the new products they want to introduce and also I made design changes using LESS.",
-			client : "X-Shirt",
-			date : "June - August 2016"
+			description : "In the summer of 2016 I went in an intership to Lima, Peru. There I met X-Shirt, a startup trying to make a change in the value chain, mainly with the cotton products, where all receive what they deserve. I loved their idea when I understood completely what they wanted to acheive (search for them! You'll love them too!). Now they aren't called X-Shirt, they changed their name to World Trade Fibers. The platform I developed with them unfortunately is down :( but is nothing bad, because it changed to a new, more robust, scalable and better platform! And the best of all... I'm part of that improvement! If you try to go to A-Shirt (old platform), it will redirect you to the new one, try it, or save it for when you see it in other of my developed projects ;)",
+			client : "World Trade Fibers",
+			date : "June - August 2016",
+			employer : "World Trade Fibers",
+			employer_url : "https://wtf.style/about-us/"
 		},
 		{
 			id : 5,
 			tag : "Wordpress Projects",
-			img : "assets/img/portfolio/thumbnails/portfolio_05.png", 
+			img : "assets/img/portfolio/thumbnails/portfolio_05.png",
 			type : "Wordpress Website",
 			zoom : "assets/img/portfolio/data/portfolio_05.PNG",
-			href : "http://www.laboratoriosbelar.com/",
+			href : "https://www.laboratoriosbelar.com/",
 			title : "Laboratorios Belar",
-			description : "Laboratorios Belar is a clinic laboratory where anyone can go there to make a lot of different studies. This was a freelancer development and was mainly developed using WordPress and, since it was only a showcase of the clinical test they do, it didn't need any coding.",
+			description : "One of my freelance works (some of them I couldn't add them here because the client never publish them :( is really sad...). I mainly developed this project using WordPress so some features and part of the theme I didn't developed it directly, but I added some functionality too. Maybe will be hard to find because the client change the site since I developed it (they are constantly changing it). But you can enter and see some of my esence is still there.",
 			client : "Laboratorios Belar",
-			date : "May 2016"
+			date : "May 2016",
+			employer : "Freelancer",
+			employer_url : "#"
 		},
 		{
 			id : 6,
 			tag : "Wordpress Projects",
-			img : "assets/img/portfolio/thumbnails/portfolio_06.png", 
+			img : "assets/img/portfolio/thumbnails/portfolio_06.png",
 			type : "Wordpress Website",
 			zoom : "assets/img/portfolio/data/portfolio_06.PNG",
 			href : "http://www.kleandepot.mx",
 			title : "Klean Depot",
-			description : "This is a site that I was asked to develop in a weekend (literally). This was a freelancer job I did and the client only needed a site that could show some information about them. For this I didn't code anything, only using WordPress plugins and themes to do it (it was also because of the time they gave me).",
+			description : "Another freelance work. This client asked for the site in a weekend (literally, they don't know what is behind development...), because they needed to show it in a demostration next monday. I did my best trying to make the site, unfortunately (I don't know if the client found out that they didn't needed a website or they tried something else to reach their market), they shut down the site :( I'm sad because I liked the site, it was cool... I promise! But it was just online like 6 months.",
 			client : "Klean Depot",
-			date : "June 2016"
+			date : "June 2016",
+			employer : "Freelancer",
+			employer_url : "#"
 		},
 		{
 			id : 7,
 			tag : "Wordpress Projects",
-			img : "assets/img/portfolio/thumbnails/portfolio_07.png", 
+			img : "assets/img/portfolio/thumbnails/portfolio_07.png",
 			type : "Wordpress Website",
 			zoom : "assets/img/portfolio/data/portfolio_07.PNG",
 			href : "https://m-shirt.club/",
 			title : "M-Shirt",
-			description : "This is the first crowdfunding site that we developed in the company I work for (X-Shirt). The goal for this site is to find people interested in the new product that the company is going to launch and invite them to show their support by crowdfuning the project and, by that, receiving a new product. In this project I was in charge of the development team to get this site done, I was involved both in planning and development.",
-			client : "X-Shirt",
-			date : "September 2016"
+			description : "If you saw my other projects, I talked about X-Shirt (now World Trade Fibers), that is the company I worked for in Lima, Peru. After I return to Mexico to continue my studies, my old boss called me and asked me if I don't wanted to continue working with them... online! I was really happy to hear that, because is one of the reasons I chose this degree: so I could work to anyone anywhere. For this project it was different than the first one, now I had more experience so I was leading the development team for launching the site, using A-Shirt platform as a model. At the end, this site had the same end as A-Shirt (they died for a better cause). Now, this link also redirect to a section of the new site... is your choice, check it out now or wait to see it later in my portfolio ;)",
+			client : "World Trade Fibers",
+			date : "September 2016",
+			employer : "World Trade Fibers",
+			employer_url : "https://wtf.style/about-us/"
 		},
 		{
 			id : 8,
 			tag : "Wordpress Projects",
-			img : "assets/img/portfolio/thumbnails/portfolio_08.png", 
+			img : "assets/img/portfolio/thumbnails/portfolio_08.png",
 			type : "Wordpress Website",
 			zoom : "assets/img/portfolio/data/portfolio_08.jpg",
 			href : "http://asturiasresidencial.com.mx/",
 			title : "Residencial Asturias",
-			description : "Residencial Asturias is a residential area in Chihuahua City. Is distributed in three stages with a total of 200 residential lots, surrounded by natural parks in the area and privileged visits to the city, which seek to integrate into a single concept of security, armony and exclusivity.",
+			description : "If you saw Campus City and Inmobigamma projects you will come to a conclusion that this is the third project this client developed with us! It seems they liked our work! For this new work, the client was aiming to have a landing page that will make their clients know more about them and make a contact.",
 			client : "GAMMA Inmobiliaria",
-			date : "December 2016"
+			date : "December 2016",
+			employer : "SOSTECH",
+			employer_url : "http://sostech.com.mx"
 		},
 		{
 			id : 9,
 			tag : "Magento Projects",
-			img : "assets/img/portfolio/thumbnails/portfolio_09.png", 
+			img : "assets/img/portfolio/thumbnails/portfolio_09.png",
 			type : "Magento Website",
 			zoom : "assets/img/portfolio/data/portfolio_09.jpg",
-			href : "http://detalhe.com.mx/",
+			href : "https://detalheaccessories.mx/",
 			title : "Detalhe Accessories E-Commerce",
-			description : "Detalhe is a customized gift company from Chihuahua City. Also, they sell mexican artisan jewelry though all the country. This is a Magento E-Commerce built for the company, in order to increase their online sales so they can reach more places, even other countries. This platform have an integration with social media (Facebook) so it is possible to sell through it.",
+			description : "As part of my formation in the university, I coordinated a team of developers to make an e-commerce project for a gift company from the city. In this project we were advised by a teacher and I learned a lot about making a project plan and excecute it with a developing team that didn't care much about the project delivery because they where focused with a parallel project we developed for another client.",
 			client : "Detalhe",
-			date : "February - May 2017"
+			date : "February - May 2017",
+			employer : "University/Student",
+			employer_url : "#"
 		},
 		{
 			id : 10,
 			tag : "ASP.NET Projects",
-			img : "assets/img/portfolio/thumbnails/portfolio_10.png", 
+			img : "assets/img/portfolio/thumbnails/portfolio_10.png",
 			type : "Web Application",
 			zoom : "assets/img/portfolio/data/portfolio_10.jpg",
 			href : "http://tygmedical.azurewebsites.net",
 			title : "TyG Medical Web Application",
-			description : "TyG Medical is a medical services company that provides support to the industry and is located in Chihuahua City. In order to have a better communication with their collaborators that are in their clients facilities, we (a team of developers and I, as the leader of that team) developed a web application that could help the HR department to have a fluent communication. Also, it implements an inventory management section, where medics can request more medicament and the company administration can manage those request and the medicament.",
+			description : "This project was developed in parallel with Detalhe Accessories e-commerce store. This project was a challenge because was with a new technology that we didn't knew much and with no much time to learn about it. We made a great effort for finishing this project, unfortunately the company never pull out the project and it ended just like an academic project only.",
 			client : "TyG Medical",
-			date : "February - May 2017"
+			date : "February - May 2017",
+			employer : "University/Student",
+			employer_url : "#"
 		},
 		{
 			id : 11,
 			tag : "Wordpress Projects",
-			img : "assets/img/portfolio/thumbnails/portfolio_11.png", 
+			img : "assets/img/portfolio/thumbnails/portfolio_11.png",
 			type : "Wordpress Website",
 			zoom : "assets/img/portfolio/data/portfolio_11.jpg",
-			href : "http://www.wtf.style/",
-			title : "WTF Style Online Store",
-			description : "WTF is the new image of what it was X-Shirt. Now, with a whole new organization we have created a new sales platform project, where each brand can be managed separately but can interact between them too! It's also able to show the customers where their products where made (with exact locations!). All this is created using WordPress CMS structure.",
-			client : "WTF Style",
-			date : "Coming soon"
+			href : "https://www.wtf.style/",
+			title : "WTF Style Store",
+			description : "If you saw my other projects with World Trade Fibers (X-Shirt), well this is the project I was talking about. This is the one that replaced both M-Shirt and A-Shirt but promise so much more. Right now is an e-commerce for the company products, but this is the start of the platform that aims to change the chain of value in the cotton market. This will be an interesting project, so stay tunned to know more about it!",
+			client : "World Trade Fibers",
+			date : "August 2017 - Now",
+			employer : "World Trade Fibers",
+			employer_url : "https://wtf.style/about-us/"
 		}
 	]
 };
