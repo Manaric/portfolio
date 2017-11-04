@@ -139,7 +139,7 @@ var portfolio = {
 			zoom : "assets/img/portfolio/data/portfolio_09.jpg",
 			href : "https://detalheaccessories.mx/",
 			title : "Detalhe Accessories E-Commerce",
-			description : "As part of my formation in the university, I coordinated a team of developers to make an e-commerce project for a gift company from the city. In this project we were advised by a teacher and I learned a lot about making a project plan and excecute it with a developing team that didn't care much about the project delivery because they where focused with a parallel project we developed for another client.",
+			description : "As part of my formation in the university, I coordinated a team of developers to make an e-commerce project for a gift company from the city. In this project we were advised by a teacher and I learned a lot about making a project plan and excecute it with a developing team without motivation in running the project. At the end, we needed to left it partially done and myself took the project alone and built it again with other requirements from the client.",
 			client : "Detalhe",
 			date : "February - May 2017",
 			employer : "University/Student",
