@@ -389,7 +389,8 @@ form .row:first-child .floating-label-form-group {
 @media (min-width: 1280px) {
   #about {
     background: url('../img/other/banner.png') no-repeat center top;
-    padding-bottom: 400px;
+    padding-bottom: 500px;
+    margin-top: 20px;
   }
 }
 
