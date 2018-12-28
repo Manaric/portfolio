@@ -553,6 +553,7 @@ form .row:first-child .floating-label-form-group {
 .clients .col-sm-2 {
   height: 80px;
   line-height: 80px;
+  margin-left: 12.5%;
 }
 /*	################################################################
 	8. CONTACT FORM
